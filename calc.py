@@ -5,5 +5,7 @@ def compute(string):
     operator = values[1]
     if operator == '+':
         return num0 + num1
+    elif operator == '-'
+    	return num0 - num1
     else:
     	raise ValueError('Unknown operator!')

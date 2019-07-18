@@ -1,5 +1,6 @@
 def compute(string):
     """Perform simple arithmetic based on string input.
+    Supports all basic operators and floats.
     
     Example: '5 + 7' -> 12
     """

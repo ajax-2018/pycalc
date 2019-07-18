@@ -12,6 +12,6 @@ def compute(string):
     elif operator == '-':
     	return num0 - num1
     else:
-	msg = f'Unknown operator: "{operator}"'
-	msg += 'Choose from "+" and "-"'
+	msg = f'Unknown operator: "{operator}"\n'
+	msg += 'Choose from "+" and "-".'
 	raise ValueError(msg)
